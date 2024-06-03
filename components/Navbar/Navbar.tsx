@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="fixed mx-auto border border-mycolor-300 top-0 left-0 right-0 
+      className="fixed mx-auto border-b border-mycolor-300 top-0 left-0 right-0 
     z-10  bg-opacity-85">
       <div
         className="flex container lg:py-4 py-2 px-4 flex-wrap items-center 
@@ -37,7 +37,7 @@ const Navbar = () => {
           href="/"
           className="text-2xl md:text-4xl md:pb-2 text-mycolor-700 font-semibold
         font-pacifico">
-          My Portfolio
+          Luna
         </Link>
 
         {/* Mobil görünüm için */}

@@ -7,7 +7,7 @@ interface MobileMenuProps{
 
 const MobileMenu = ({links}:MobileMenuProps) => {
   return (
-    <ul className='flex flex-col py-4 items-center md:hidden'>
+    <ul className='flex flex-col py-4 items-center md:hidden z-10 bg-mycolor-400'>
         {links.map((link,i) => (
             <li key={i}>
                 <NavItem href={link.path} title={link.title}/>
