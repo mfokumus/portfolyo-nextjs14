@@ -1,3 +1,4 @@
+import Archive from "@/components/Archive/Archive";
 import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
 import { Button } from "@/components/ui/button";
@@ -11,11 +12,8 @@ export default function Home() {
 
       <div className="container mt-24 md:mt-36 px-10 py-4">
         <Hero/>
+        <Archive/>
       </div>
-
-
-
-
 
     </main>
     
