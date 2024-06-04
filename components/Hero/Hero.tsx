@@ -26,7 +26,7 @@ const Hero = () => {
             bg-gradient-to-r from-mycolor-200 to-mycolor-100
             "
             >
-              Hello I am
+              Hello I &apos; am
             </span>
             <div className="h-2"></div>
             <TypeAnimation

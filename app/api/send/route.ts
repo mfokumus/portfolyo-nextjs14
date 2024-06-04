@@ -7,6 +7,12 @@ export async function POST(req:Request, res:Response) {
 
     const {email, subject, message} = await req.json();
     console.log(email, subject, message)
+
+    if(!fromEmail){
+      throw new Error("From email is required")
+    }
+
+
   try {
     const { data, error } = await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>',

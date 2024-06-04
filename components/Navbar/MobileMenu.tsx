@@ -1,8 +1,13 @@
 import React from 'react'
 import NavItem from './NavItem'
 
+interface Link {
+  path:string,
+  title:string
+}
+
 interface MobileMenuProps{
-    links:[],
+    links: Link[],
 }
 
 const MobileMenu = ({links}:MobileMenuProps) => {
