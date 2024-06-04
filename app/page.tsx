@@ -1,3 +1,4 @@
+import About from "@/components/About/About";
 import Archive from "@/components/Archive/Archive";
 import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="container mt-24 md:mt-36 px-10 py-4">
         <Hero/>
         <Archive/>
+        <About/>
       </div>
 
     </main>
